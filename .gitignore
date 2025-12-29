@@ -1,0 +1,38 @@
+# General
+.DS_Store
+*.log
+.idea/
+.vscode/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+!*.example
+
+# Python / Backend
+backend/__pycache__/
+backend/*.py[cod]
+backend/venv/
+backend/.venv/
+backend/.pytest_cache/
+backend/dist/
+backend/build/
+backend/*.egg-info/
+backend/.coverage
+backend/htmlcov/
+backend/static/reports/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+frontend/.turbo/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Docker
+docker-compose.override.yml
