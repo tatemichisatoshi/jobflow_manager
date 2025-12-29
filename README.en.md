@@ -97,9 +97,9 @@ jobflow-manager/
 
 ## Future Roadmap
 
-- **WebSocket Support**: Real-time status updates without polling.
-- **Scheduled Execution**: Cron-like scheduled job features.
-- **Notification Integration**: Slack/Email notifications upon job completion.
+- **WebSocket Support**: [Issue #1](https://github.com/tatemichisatoshi/jobflow_manager/issues/1) - Real-time status updates without polling.
+- **Scheduled Execution**: [Issue #2](https://github.com/tatemichisatoshi/jobflow_manager/issues/2) - Cron-like scheduled job features.
+- **Notification Integration**: [Issue #3](https://github.com/tatemichisatoshi/jobflow_manager/issues/3) - Slack/Email notifications upon job completion.
 
 ## Development Commands
 

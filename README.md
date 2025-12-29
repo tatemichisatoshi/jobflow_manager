@@ -103,8 +103,9 @@ jobflow-manager/
 
 ## 今後の拡張案
 
-- **WebSocket対応**: ポーリング不要でリアルタイムにステータス更新を反映。
-- **定期実行**: cronライクなスケジュールジョブ機能の追加。
+- **WebSocket対応**: [Issue #1](https://github.com/tatemichisatoshi/jobflow_manager/issues/1) - ポーリング不要でリアルタイムにステータス更新を反映。
+- **定期実行**: [Issue #2](https://github.com/tatemichisatoshi/jobflow_manager/issues/2) - cronライクなスケジュールジョブ機能の追加。
+- **通知連携**: [Issue #3](https://github.com/tatemichisatoshi/jobflow_manager/issues/3) - ジョブ完了時にSlack/Emailで通知を受け取る機能。
 - **パラメータ検証**: JSON Schemaを用いたジョブパラメータの厳密なバリデーション。
 
 ## 開発用コマンド
