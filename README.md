@@ -1,5 +1,7 @@
 # Jobflow Manager
 
+**スクレイピング・集計・レポート生成などのバッチ処理を、Web UIから実行・監視できるジョブ管理ツールです。**
+
 Jobflow Manager は、社内利用を想定して設計されたバックグラウンドジョブ管理SaaSです。
 ユーザーはパラメータ付きのジョブを作成し、Celeryワーカーによる非同期実行を行い、そのステータスや実行ログをWeb UIからリアルタイムに確認できます。
 
@@ -82,6 +84,7 @@ jobflow-manager/
    cp .env.example .env
    # 必要に応じて frontend/.env.local も確認してください
    ```
+   > ⚠️ 公開前に `.env` や設定ファイルにシークレット情報が含まれていないことを確認してください。
 
 3. **サービスの起動**
    ```bash
@@ -97,9 +100,15 @@ jobflow-manager/
    ```
    *作成されるユーザー: `admin@example.com` / `admin`*
 
+   > ⚠️ **ローカル開発専用** - 本番・公開環境では必ず別の認証情報を使用してください。
+
 5. **アクセス**
    - フロントエンド: [http://localhost:3000](http://localhost:3000)
    - APIドキュメント: [http://localhost:8000/docs](http://localhost:8000/docs)
+
+## Screenshots / 画面イメージ
+
+*後日追加予定（配置想定: `docs/screenshots/`）*
 
 ## 今後の拡張案
 
